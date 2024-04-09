@@ -91,6 +91,8 @@ spec:
                     requests:
                       storage: {{ .Values.prometheus.volume_claim_storage_request}}Gi
             hostNetwork: {{ .Values.host_network.enabled }}
+            remoteWrite: 
+            - url: cortex-metrics.apps.nonprod.proximacentaurib.onglueops.rocks/api/prom/push
         grafana:
           {{- toYaml .Values.glueops_node_and_tolerations | nindent 10 }}
           adminPassword: "{{ .Values.grafana.admin_password }}"
