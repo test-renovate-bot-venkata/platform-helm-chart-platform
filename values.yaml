@@ -335,7 +335,7 @@ container_images:
       image:
         registry: ghcr.io
         repository: metacontroller/metacontroller
-        tag: v4.11.10
+        tag: v4.11.10@sha256:1f1319f699463036b491a6e4c8475e06b727ddc9774b77a8192a222f784fbab8
 
 
 
