@@ -263,7 +263,7 @@ container_images:
       image:
         registry: docker.io
         repository: redis
-        tag: 7.2.4-alpine3.19@sha256:7635b0bfdd7dd8552b4b31d6541fef07b734614045b45a52fd5cc27c9dada9e2
+        tag: 7.2.4-alpine3.19@sha256:c8bb255c3559b3e458766db810aa7b3c7af1235b204cfdb304e79ff388fe1a5a
   app_glueops_operator_waf_web_acl:
     glueops_operator_waf_web_acl:
       image:
